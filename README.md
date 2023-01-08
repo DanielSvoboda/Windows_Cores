@@ -5,7 +5,7 @@ Com as mesmas funções do painel de 'Personalizar/Cores' do windows
 <br><br>
 Programa em C# windows forms .NET Framework 4.8
 <br>
-•DOWNLOAD: https://github.com/DanielSvoboda/Windows_Cores/raw/main/Windows_Cores.exe
+•DOWNLOAD: https://github.com/DanielSvoboda/Windows_Cores/raw/main/Windows%20Cores.exe
   <br><br>
   # Funções
   <br>
