@@ -91,6 +91,7 @@ namespace Windows_Cores
             this.cor_4285953654 = new System.Windows.Forms.Button();
             this.groupBoxCoresDoWindows = new System.Windows.Forms.GroupBox();
             this.linkLabel_github = new System.Windows.Forms.LinkLabel();
+            this.button_atualizar = new System.Windows.Forms.Button();
             this.groupBox_Windows.SuspendLayout();
             this.groupBox_Aplicativos.SuspendLayout();
             this.groupBox_MostrarNasSuperficies.SuspendLayout();
@@ -715,7 +716,7 @@ namespace Windows_Cores
             // 
             this.linkLabel_github.AutoSize = true;
             this.linkLabel_github.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel_github.Location = new System.Drawing.Point(90, 493);
+            this.linkLabel_github.Location = new System.Drawing.Point(12, 499);
             this.linkLabel_github.Name = "linkLabel_github";
             this.linkLabel_github.Size = new System.Drawing.Size(173, 13);
             this.linkLabel_github.TabIndex = 58;
@@ -723,11 +724,23 @@ namespace Windows_Cores
             this.linkLabel_github.Text = "https://github.com/DanielSvoboda";
             this.linkLabel_github.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_github_LinkClicked);
             // 
+            // button_atualizar
+            // 
+            this.button_atualizar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button_atualizar.Location = new System.Drawing.Point(191, 493);
+            this.button_atualizar.Name = "button_atualizar";
+            this.button_atualizar.Size = new System.Drawing.Size(72, 24);
+            this.button_atualizar.TabIndex = 57;
+            this.button_atualizar.Text = "Atualizar?";
+            this.button_atualizar.UseVisualStyleBackColor = true;
+            this.button_atualizar.Click += new System.EventHandler(this.button_atualizar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(274, 512);
+            this.ClientSize = new System.Drawing.Size(274, 522);
+            this.Controls.Add(this.button_atualizar);
             this.Controls.Add(this.linkLabel_github);
             this.Controls.Add(this.groupBoxCoresDoWindows);
             this.Controls.Add(this.groupBox_MostrarNasSuperficies);
@@ -812,6 +825,7 @@ namespace Windows_Cores
         private System.Windows.Forms.Button cor_4285953654;
         private System.Windows.Forms.GroupBox groupBoxCoresDoWindows;
         private System.Windows.Forms.LinkLabel linkLabel_github;
+        private System.Windows.Forms.Button button_atualizar;
     }
 }
 

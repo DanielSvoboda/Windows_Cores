@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7B1F90F4-1D62-4BCD-BBF5-0A25906F11CC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Windows_Dark_Theme</RootNamespace>
-    <AssemblyName>Windows Cores</AssemblyName>
+    <RootNamespace>Windows_Cores</RootNamespace>
+    <AssemblyName>Windows_Cores</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -82,6 +82,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

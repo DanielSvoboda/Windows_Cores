@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Runtime.InteropServices;
+
 
 namespace Windows_Cores
 {
@@ -32,6 +27,7 @@ namespace Windows_Cores
             public bool fOpaque;
         }
 
+
         public static void Refresh()
         {
             DWM_COLORIZATION_PARAMS tmp;
@@ -48,6 +44,7 @@ namespace Windows_Cores
             public uint dwColorSetIndex;
         }
 
+
         public static void SetAccentColor(uint cor)
         {
             IMMERSIVE_COLOR_PREFERENCE temp = new IMMERSIVE_COLOR_PREFERENCE
@@ -58,6 +55,5 @@ namespace Windows_Cores
             };
             SetUserColorPreference(ref temp, true);
         }
-
     }
 }
