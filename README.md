@@ -5,7 +5,7 @@ Com as mesmas funções do painel de 'Personalizar/Cores' do windows
 <br><br>
 Programa em C# windows forms .NET Framework 4.8
 <br>
-•DOWNLOAD: https://github.com/DanielSvoboda/Windows_Cores/raw/main/Windows%20Cores.exe
+•DOWNLOAD: https://github.com/DanielSvoboda/Windows_Cores/raw/main/Windows_Cores.exe
   <br><br>
   # Funções
   <br>
@@ -18,5 +18,8 @@ Programa em C# windows forms .NET Framework 4.8
   •Iniciar, barra de tarefas e central de ações <br>
   •Barras de títulos e bordas da janela <br>
   <br><br>
-  Abaixo é o menu do windows que é possível acessar por 'Personalizar/Cores'
+  •Atualizar? <br>
+   Verificar se existe uma atualização e se aceitar vai baixar a nova versão abrir e excluir a antiga.
+   <br><br>
+  Abaixo o menu do windows que esse programa 'replica' que é possível acessar com o botão direito na área de Trabalho 'Personalizar/Cores'
   <img width="900" alt="portfolio_view" src="https://raw.githubusercontent.com/DanielSvoboda/Windows_Cores/main/02.png">
