@@ -1,6 +1,6 @@
 # Windows_Cores
-Com as mesmas funções do painel de 'Personalizar/Cores' do windows
-<br>•Funciona mesmo se o windows estiver sem ativação.
+Recriação do painel de 'Personalizar/Cores' do windows, com as mesmas funções.
+<br> *Funciona mesmo se o windows estiver sem ativação.
 <br><br><img width="300" alt="portfolio_view" src="https://raw.githubusercontent.com/DanielSvoboda/Windows_Cores/main/01.png">
 <br><br>
 Programa em C# windows forms .NET Framework 4.8
